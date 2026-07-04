@@ -4,6 +4,8 @@
 ## env files ###
 *.env
 
+## Translation / Models ##
+models/*
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
