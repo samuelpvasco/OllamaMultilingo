@@ -1,6 +1,7 @@
-import messages
-import translate
+import app.messages as messages
+import app.translate as translate   
 
+#TODO: Atualizar Chat_talk para usar as novas features
 def chat_talk(model: str):
     context_history = []
     
@@ -32,6 +33,7 @@ def chat_talk(model: str):
         context_history.append({'role': 'user', 'content': question_en})
 
         _, answer_en = messages.send_message(history=context_history, model=model, stream=False)
+        
         context_history.append({'role': 'assistant', 'content': answer_en})
 
         if source_code == "en-US":

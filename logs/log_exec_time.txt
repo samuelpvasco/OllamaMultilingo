@@ -1,4 +1,4 @@
-Primeira mensagem (nenhum modelo carregado): 01:29.48 {
+Primeira mensagem (nenhum modelo carregado): 01:29.48 
 	llama3.2 carregado = 00:02:18,
 	llama3.2 descarregado = 00:05.24,
 	translategemma ques -> en-US = 00:06.48 - 00:16.79
